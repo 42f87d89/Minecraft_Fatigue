@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fatigue:stone_axe",
+      "fatigue:stone_pickaxe",
+      "fatigue:stone_shovel",
+      "fatigue:stone_hoe",
+      "fatigue:stone_sword"
+    ]
+  },
+  "criteria": {
+    "has_flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:flint"
+          }
+        ]
+      }
+    }
+  }
+}

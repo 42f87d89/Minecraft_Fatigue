@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fatigue:torch"
+    ]
+  },
+  "criteria": {
+    "north": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 500.0
+          }
+        }
+      }
+    },
+    "south": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "max": -500.0
+          }
+        }
+      }
+    },
+    "east": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "min": 500.0
+          }
+        }
+      }
+    },
+    "west": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "max": -500.0
+          }
+        }
+      }
+    }
+  }
+}

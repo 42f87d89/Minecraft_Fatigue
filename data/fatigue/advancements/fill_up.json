@@ -1,0 +1,10 @@
+{
+  "rewards": {
+    
+  },
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

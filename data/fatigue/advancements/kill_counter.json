@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "function": "fatigue:kill_counter"
+  },
+  "criteria": {
+    "killed_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:zombie"
+      }
+    },
+    "killed_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:husk"
+      }
+    },
+    "killed_stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:stray"
+      }
+    },
+    "killed_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:zombie_villager"
+      }
+    },
+    "killed_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:creeper"
+      }
+    },
+    "killed_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:skeleton"
+      }
+    },
+    "killed_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:enderman"
+      }
+    },
+    "killed_witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "type": "minecraft:witch"
+      }
+    }
+  }
+}

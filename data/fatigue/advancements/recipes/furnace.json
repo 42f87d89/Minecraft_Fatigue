@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fatigue:furnace",
+      "minecraft:baked_potato",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_cod",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_salmon",
+      "minecraft:dried_kelp",
+      "minecraft:gold_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:gold_nugget",
+      "minecraft:iron_nugget"
+    ]
+  },
+  "criteria": {
+    "find_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "Village"
+      }
+    }
+  }
+}

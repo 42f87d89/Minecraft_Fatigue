@@ -1,0 +1,7 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{"item": "minecraft:wheat_seeds"}, {"tag": "fatigue:flowers"}],
+  "result": {
+    "item": "minecraft:cookie"
+  }
+}

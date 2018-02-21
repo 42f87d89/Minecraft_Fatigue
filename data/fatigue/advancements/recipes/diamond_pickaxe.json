@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:diamond_pickaxe"
+    ]
+  },
+  "criteria": {
+    "found_stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "Stronghold"
+      }
+    }
+  }
+}

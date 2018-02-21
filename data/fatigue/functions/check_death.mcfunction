@@ -1,0 +1,1 @@
+execute as @a if score @s has_died matches 1..1 run function fatigue:respawn
