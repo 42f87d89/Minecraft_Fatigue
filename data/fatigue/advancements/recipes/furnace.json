@@ -19,10 +19,47 @@
     ]
   },
   "criteria": {
-    "find_village": {
-      "trigger": "minecraft:location",
+    "bred_chicken": {
+      "trigger": "minecraft:bred_animals",
       "conditions": {
-        "feature": "Village"
+        "child": {
+          "type": "minecraft:chicken"
+        }
+      }
+    },
+    "bred_cow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:cow"
+        }
+      }
+    },
+    "bred_pig": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:pig"
+        }
+      }
+    },
+    "bred_sheep": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:sheep"
+        }
+      }
+    },
+    "got_bonemeal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone_meal",
+            "count": {"min": 64}
+          }
+        ]
       }
     }
   }
