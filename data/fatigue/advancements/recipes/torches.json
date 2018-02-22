@@ -5,33 +5,14 @@
       "fatigue:torch"
     ]
   },
+  "requirements": [["east","west","south","north"]],
   "criteria": {
-    "north": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "position": {
-          "x": {
-            "min": 500.0
-          }
-        }
-      }
-    },
-    "south": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "position": {
-          "x": {
-            "max": -500.0
-          }
-        }
-      }
-    },
     "east": {
       "trigger": "minecraft:location",
       "conditions": {
         "position": {
-          "z": {
-            "min": 500.0
+          "x": {
+            "min": 1000.0
           }
         }
       }
@@ -40,8 +21,28 @@
       "trigger": "minecraft:location",
       "conditions": {
         "position": {
+          "x": {
+            "max": -1000.0
+          }
+        }
+      }
+    },
+    "south": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
           "z": {
-            "max": -500.0
+            "min": 1000.0
+          }
+        }
+      }
+    },
+    "north": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "max": -1000.0
           }
         }
       }
