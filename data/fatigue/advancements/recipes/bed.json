@@ -18,7 +18,8 @@
       "minecraft:red_bed",
       "minecraft:white_bed",
       "minecraft:yellow_bed"
-    ]
+    ],
+    "functions": ["fatigue:disable_kill_counter"]
   },
   "criteria": {
     "a": {
