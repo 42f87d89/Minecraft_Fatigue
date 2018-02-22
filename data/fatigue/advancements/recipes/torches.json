@@ -5,7 +5,6 @@
       "fatigue:torch"
     ]
   },
-  "requirements": [["east","west","south","north"]],
   "criteria": {
     "east": {
       "trigger": "minecraft:location",
@@ -47,5 +46,8 @@
         }
       }
     }
-  }
+  },
+  "requirements": [
+    ["east", "west", "south", "north"]
+  ]
 }
